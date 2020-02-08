@@ -22,7 +22,6 @@ public class BasePage implements MainSchema {
 
 
     public String getConfig(String property) throws IOException {
-
         InputStream stream = new FileInputStream("src//test//resources//default.properties");
             Properties prop = new Properties();
             // load a properties file
